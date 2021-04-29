@@ -1,0 +1,73 @@
+body{
+        background-color:#E0E5EC;
+}
+
+h1{
+  font-family: 'Original Surfer', cursive;
+  font-size: 70px;
+  text-align:center;
+  color: dimgrey;
+  margin:16px;
+}
+
+.layout{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:30px;
+    border-radius:10px;
+    width:300px;
+    height:490px;
+    background-color:#E0E5EC;
+  box-shadow: 9px 9px 16px rgb(163,177,198,0.6), -9px -9px 16px    rgba(255,255,255, 0.5);
+}
+
+.calculator{
+  padding: 20px;
+}
+
+.button{
+  font-family: 'Original Surfer', cursive;
+  font-size: 20px;
+  color: rgb(128, 127, 127);
+  border-radius: 50%;
+  border:none;
+  width: 55px;
+  height: 55px;
+  margin: 3px;
+  box-shadow: 
+  12px 12px 16px 0 rgb(163,177,198,0.6) inset,
+  -8px -8px 12px 0  rgba(255,255,255, 0.5) inset;
+}
+
+.button-lg{
+  width: 115px;
+  height: 55px;
+  border-radius: 30px;
+}
+
+.button:hover{
+  box-shadow: 
+  12px 12px 16px 0  rgba(255,255,255, 0.5) inset,
+  -8px -8px 12px 0 rgb(163,177,198,0.6) inset;
+}
+
+.button:active{
+  box-shadow: 
+  12px 12px 16px 0 rgb(163,177,198,0.6) inset,
+  -8px -8px 12px 0  rgba(255,255,255, 0.5) inset;
+}
+
+.display{
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-size: 20px;
+  width:240px;
+  height:50px;
+  margin: 8px;
+  border-radius: 20px;
+  border:none;
+  box-shadow: 
+  12px 12px 16px 0 rgba(255,255,255, 0.5) inset,
+  -8px -8px 12px 0  rgb(163,177,198,0.6) inset;
+}
+
+
